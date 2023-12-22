@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(0, 229, 255), rgb(208, 80, 231),rgb(117, 162, 245));
+}
+
+ /* css for login form */
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 25rem;
+    margin-left: 33rem;
+    margin-top: 18rem;
+    font-weight: 200;
+}
+
+/* fonts for form */
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    width: 20rem;
+    color: white;
+}
+form input{
+    height: 1.8rem;
+    color: white;
+    font-weight: 400;
+    font-size:medium ;
+    padding: 3px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+#loginButton{
+    margin-top: 10px;
+    width: 5rem;
+    height: 1.8rem;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-left: 37%;
+    margin-bottom: 8px;
+    color: white;
+}
+h1{
+    color: white;
+    text-shadow: 0px 0px 3px;   
+}
+
+/* login form for mobile */
+
+@media screen and (max-width: 700px){
+
+     /* css for login form */
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 25rem;
+    margin-left:.4rem;
+    margin-top: 18rem;
+    font-weight: 200;
+}
+
+}
+
+@media screen and (min-width: 800px){
+
+    /* css for login form */
+.login{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   border-radius: 8px;
+   border: 1px solid black;
+   width: 25rem;
+   margin-left:35vw;
+   margin-top: 40vh;
+   font-weight: 200;
+}
+
+}
+ 

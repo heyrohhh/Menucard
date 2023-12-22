@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacks</title>
+    <link rel="stylesheet" href="snack.css">
+</head>
+<body>
+    <div class="main">
+      <div class="snack_option">
+        <!-- eggs -->
+        <div id="egg" class="snack">
+          <img src="Eggs.jpeg" alt="egg" height="150px" width="120px">
+          <p>
+            <h4>Boiled Eggs One Plate - 4 Eggs</h4>
+            <span class="price">&#8377;30 <button class="btn" onclick="add()">Add</button></span>
+          </p>
+        </div>
+        <!-- icecream html -->
+        <div id="ice_cream" class="snack">
+          <img src="ics-cream.jpeg" alt="ice cream" height="150px" width="150px">
+          <p>
+            <h4>Vanila Ice-Cream</h4>
+            <span class="price">&#8377;60 <button class="btn" onclick="add1()">Add</button></span>
+          </p>
+        </div>
+
+        <!-- dry fruit -->
+        <div id="dryfruit" class="snack">
+          <img src="dryfruit.jpeg" alt="dryfruit" height="150px" width="150px">
+          <p>
+            <h4>Mixed Dry Fruits</h4>
+            <span class="price">&#8377;150 <button class="btn" onclick="add2()">Add</button></span>
+          </p>
+      </div>
+
+      <!-- kachori -->
+      <div id="kachori" class="snack">
+          <img src="kachori.jpeg" alt="kachori" height="150px" width="150px">
+          <p>
+            <h4>Kachori One Plate(3piece)</h4>
+            <span class="price">&#8377;25<button class="btn" onclick="add3()">Add</button></span>
+          </p>
+      </div>
+
+      <!-- Pizza -->
+      <div id="Pizza" class="snack">
+        <img src="pizza.jpeg" alt="kachori" height="150px" width="150px">
+        <p>
+          <h4>Pizza</h4>
+          <span class="price">&#8377;249 <button class="btn" onclick="add4()">Add</button></span>
+        </p>
+    </div>
+    <!-- Burger -->
+    <div id="Burger" class="snack">
+      <img src="burger.jpg" alt="kachori" height="150px" width="150px">
+      <p>
+        <h4>Burger</h4>
+        <span class="price">&#8377;65<button class="btn" onclick="add5()">Add</button></span>
+      </p>
+  </div>
+  <!-- samosa -->
+  <div id="Samosa" class="snack">
+    <img src="samosa.jpeg" alt="kachori" height="150px" width="150px">
+    <p>
+      <h4>Samosa</h4>
+      <span class="price">&#8377;12  <button class="btn" onclick="add6()">Add</button></span>
+    </p>
+</div>
+<!-- veg roll -->
+<div id="veg_roll" class="snack">
+  <img src="veg-roll.jpg" alt="kachori" height="150px" width="150px">
+  <p>
+    <h4>Veg Roll</h4>
+    <span class="price">&#8377;79 <button class="btn" onclick="add7()">Add</button></span>
+  </p>
+</div>
+<!-- non-veg roll -->
+<div id="non_veg_roll" class="snack">
+  <img src="non-veg roll.webp" alt="kachori" height="150px" width="150px">
+  <p>
+    <h4>Chicken Roll</h4>
+    <span class="price">&#8377;119 <button class="btn" onclick="add8()">Add</button></span>
+  </p>
+</div>
+      
+</div>
+<div class="snackcart">
+<h1> <u>Your Bill</u></h1><br>
+<h2><span id="total"></span><button onclick="total()">Total</button></h2>
+<span id="scart"> </span><br><br>
+<span id="scart1"> </span><br><br>
+<span id="scart2"> </span><br><br>
+<span id="scart3"> </span><br><br>
+<span id="scart4"> </span><br><br>
+<span id="scart5"> </span><br><br>
+<span id="scart6"> </span><br><br>
+<span id="scart7"> </span><br><br>
+<span id="scart8"> </span><br><br>
+
+
+</div>
+    </div>
+    
+
+    <script src="snackscart.js" differ></script>
+</body>
+</html>
